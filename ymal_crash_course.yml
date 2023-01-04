@@ -1,0 +1,17 @@
+# Key value pairs 
+key: value
+# Nested objects
+Nested:
+  key: value
+# Arrays
+Array_key:
+  - key1: value1
+    key2: value2
+    key3: value3
+  - key1: value10
+    key2: value20
+    key3: value30
+# Multiline text
+key: |
+  This is Multiline text
+  there are more than one lines!

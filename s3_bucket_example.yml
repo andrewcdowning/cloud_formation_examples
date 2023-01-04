@@ -1,0 +1,10 @@
+# s3_bucket_example.yml
+Resources:
+  MyS3Bucket:
+    Type: "AWS::S3::Bucket"
+    Properties: 
+      # with access control
+      AccessControl: PublicRead
+      # Bucket name change destroys bucket and data in s3
+      # in update it will say replace = True
+      BucketName: "downandrs-random-test-bucket"
